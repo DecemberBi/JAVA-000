@@ -1,0 +1,6 @@
+
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(‘œ8ÿëÙ.
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ãÏİÙ.
+V
+java:S4719<"9Replace charset name argument with StandardCharsets.UTF_8(ğôÜ8ÌúÍÙ.
