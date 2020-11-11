@@ -1,10 +1,0 @@
-
-W
-java:S34572"AFormat specifiers should be used instead of string concatenation.(èÂ·ï
-M
-java:S26292"7Use the built-in formatting to construct this argument.(èÂ·ï
-`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ˆ·°Èýÿÿÿÿ
-o
-java:S3252*"TUse static access with "io.netty.channel.unix.UnixChannelOption" for "SO_REUSEPORT".(µõ÷¦úÿÿÿÿ
-Q
-java:S1068"/Remove this unused "proxyServer" private field.(ýýÓ‚üÿÿÿÿ8š€ÎžÙ.
