@@ -13,6 +13,7 @@ CREATE TABLE `t_order`  (
   `quantity` int NOT NULL COMMENT '用户购买的数量',
   `total_payment` decimal(10, 2) NOT NULL COMMENT '用户实际付款金额',
   `pay_status` tinyint(1) NOT NULL COMMENT '付款状态：0，未付款；1，付款中；2，已付款',
+  `address` varchar(255) NOT NULL COMMENT '收货地址',
   `create_time` datetime(0) NOT NULL COMMENT '创建时间',
   `update_time` datetime(0) NOT NULL ON UPDATE CURRENT_TIMESTAMP(0) COMMENT '更新时间',
   PRIMARY KEY (`id`) USING BTREE
