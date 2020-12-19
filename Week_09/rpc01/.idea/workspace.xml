@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24658ed1-c201-4a36-8b71-614930550962" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/config/RpcRequestConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/client/Rpcfx.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/client/Rpcfx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/io/kimmking/rpcfx/client/Rpcfx$RpcfxInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-core/target/classes/io/kimmking/rpcfx/client/Rpcfx$RpcfxInvocationHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/io/kimmking/rpcfx/client/Rpcfx.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-core/target/classes/io/kimmking/rpcfx/client/Rpcfx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/io/kimmking/rpcfx/server/RpcfxInvoker.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-core/target/classes/io/kimmking/rpcfx/server/RpcfxInvoker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
