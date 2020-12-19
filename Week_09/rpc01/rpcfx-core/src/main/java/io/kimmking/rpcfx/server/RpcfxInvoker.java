@@ -14,7 +14,7 @@ public class RpcfxInvoker {
 
     private RpcfxResolver resolver;
 
-    public RpcfxInvoker(RpcfxResolver resolver){
+    public RpcfxInvoker(RpcfxResolver resolver) {
         this.resolver = resolver;
     }
 
@@ -31,18 +31,15 @@ public class RpcfxInvoker {
             // 两次json序列化能否合并成一个
             response.setResult(JSON.toJSONString(result, SerializerFeature.WriteClassName));
             response.setStatus(true);
-            return response;
-        } catch ( IllegalAccessException | InvocationTargetException e) {
-
+        } catch (IllegalAccessException | InvocationTargetException e) {
             // 3.Xstream
-
             // 2.封装一个统一的RpcfxException
             // 客户端也需要判断异常
             e.printStackTrace();
             response.setException(e);
             response.setStatus(false);
-            return response;
         }
+        return response;
     }
 
     private Method resolveMethodFromClass(Class<?> klass, String methodName) {
