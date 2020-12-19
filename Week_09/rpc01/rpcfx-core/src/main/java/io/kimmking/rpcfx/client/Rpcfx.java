@@ -5,10 +5,13 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.parser.ParserConfig;
 import io.kimmking.rpcfx.api.RpcfxRequest;
 import io.kimmking.rpcfx.api.RpcfxResponse;
+import io.kimmking.rpcfx.config.RpcRequestConfig;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationHandler;
@@ -66,12 +69,11 @@ public final class Rpcfx {
 
             // 1.可以复用client
             // 2.尝试使用httpclient或者netty client
-            OkHttpClient client = new OkHttpClient();
             final Request request = new Request.Builder()
                     .url(url)
                     .post(RequestBody.create(JSONTYPE, reqJson))
                     .build();
-            String respJson = client.newCall(request).execute().body().string();
+            String respJson = RpcRequestConfig.getClient().newCall(request).execute().body().string();
             System.out.println("resp json: "+respJson);
             return JSON.parseObject(respJson, RpcfxResponse.class);
         }

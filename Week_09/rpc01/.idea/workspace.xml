@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24658ed1-c201-4a36-8b71-614930550962" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Week_05/spring/src/main/java/com/decemberbi/jdbc/BatchInsertDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_05/spring/src/main/java/com/decemberbi/jdbc/BatchInsertDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_05/spring/src/main/java/com/decemberbi/jdbc/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_05/spring/src/main/java/com/decemberbi/jdbc/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/config/RpcRequestConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/client/Rpcfx.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/client/Rpcfx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/server/RpcfxInvoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/server/RpcfxInvoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/io/kimmking/rpcfx/client/Rpcfx$RpcfxInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-core/target/classes/io/kimmking/rpcfx/client/Rpcfx$RpcfxInvocationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/io/kimmking/rpcfx/client/Rpcfx.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-core/target/classes/io/kimmking/rpcfx/client/Rpcfx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/target/classes/io/kimmking/rpcfx/server/RpcfxInvoker.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-core/target/classes/io/kimmking/rpcfx/server/RpcfxInvoker.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1lmzGG6rLC42WJlEpDtmPrEwGAG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -99,5 +102,26 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/io/kimmking/rpcfx/demo/consumer/RpcfxClientApplication.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/io/kimmking/rpcfx/demo/consumer/RpcfxClientApplication.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/client/Rpcfx.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
