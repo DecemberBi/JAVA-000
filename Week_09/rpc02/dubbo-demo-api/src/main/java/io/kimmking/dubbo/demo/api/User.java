@@ -1,19 +1,16 @@
-package com.decemberbi.jdbc;
+package io.kimmking.dubbo.demo.api;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.ToString;
+public class User implements java.io.Serializable {
 
-public class User {
-
-    private int id;
-
-    private String name;
+    public User(){}
 
     public User(int id, String name) {
         this.id = id;
         this.name = name;
     }
+
+    private int id;
+    private String name;
 
     public int getId() {
         return id;

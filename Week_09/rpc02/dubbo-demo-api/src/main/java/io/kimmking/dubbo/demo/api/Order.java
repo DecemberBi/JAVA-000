@@ -1,18 +1,17 @@
-package com.decemberbi.jdbc;
+package io.kimmking.dubbo.demo.api;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.ToString;
-
-public class User {
+public class Order implements java.io.Serializable {
 
     private int id;
 
     private String name;
 
-    public User(int id, String name) {
+    private float amount;
+
+    public Order(int id, String name, float amount) {
         this.id = id;
         this.name = name;
+        this.amount = amount;
     }
 
     public int getId() {
@@ -29,5 +28,13 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public float getAmount() {
+        return amount;
+    }
+
+    public void setAmount(float amount) {
+        this.amount = amount;
     }
 }
